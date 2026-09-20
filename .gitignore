@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments (the project venv lives at "D:\temp\new env", outside this repo)
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — raw datasets are NOT redistributable; download them yourself (see README)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model artifacts and large outputs
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Secrets
+.env
+*.key
+kaggle.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Office lock files (the Phase-1 .docx itself IS tracked)
+~$*
